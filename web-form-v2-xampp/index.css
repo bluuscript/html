@@ -1,0 +1,69 @@
+body {
+ background-color: #252525 !important;
+}
+
+nav {
+    background-color: #98D640 !important;
+}
+
+
+#form {  
+    border: solid gray 2px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 60px;  
+    background: #98D640 !important;  
+    padding: 30px;  
+}  
+
+#btn {  
+    border: #fff 2px;
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+    margin-left: 70%;  
+}
+  
+#btn-reg, #btn-log {  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 6px;  
+    margin-left: 20%;
+    text-decoration: none;
+    position: relative;
+    bottom: 25px;
+}
+
+#btn-ver {
+    border: #fff 2px;
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+    margin-left: 12%;  
+}
+
+#form-login, #form-registro {  
+    border: solid gray 3px;  
+    width: 30%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background: #98D640 !important;  
+    padding: 50px;  
+}
+
+#form-login h1, #form-registro h1 {
+    text-align: center !important;
+}
+
+#form-login label, #form-registro label {
+    padding-right: 6px;
+    margin-right: 6px;
+}
+
+#btn-login, #btn-registro { 
+    border: solid gray 2px;
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+    margin-left: 55%;  
+}  
