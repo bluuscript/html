@@ -1,0 +1,15 @@
+tabla ingresos: 
+
+create table ingresos (ingreso integer DEFAULT 0, fecha DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+
+tabla de gastos:
+
+create table gastos (gasto integer DEFAULT 0, fecha DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+
+tabla ambos registros:
+
+create table registros (ingreso integer DEFAULT 0, gasto integer DEFAULT 0, fecha DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+
+tabla usuario de DB login: 
+
+create table usuario (username VARCHAR(15) NOT NULL, password VARCHAR(15) NOT NULL, fecha DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
